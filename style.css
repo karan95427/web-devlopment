@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    /* padding: 0; */
+    margin: 0;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+body {
+    background-color: black
+}
+
+main {
+    background-image: url(assets/images/bg.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+}
+
+.box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0%;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    text-transform: capitalize
+        /* font-family:'Poppins', sans-serif ; */
+}
+
+.hero {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    position: relative;
+    gap: 15px;
+    padding: 30px;
+    text-align: center;
+    padding-bottom: 0%;
+}
+
+.hero> :first-child {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 4%;
+
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sepration {
+    background-color: rgba(35, 35, 35, 0.963);
+    height: 7px;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    border-radius: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgba(23, 23, 23, 0.7);
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+main input {
+    width: 300px;
+    /* Set a fixed width */
+    padding: 7px 101px 8px 14px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    /* Optional for better UI */
+    box-sizing: border-box;
+    /* Ensures padding doesn't increase width */
+    text-transform: capitalize;
+    background-color: rgb(23, 23, 23, 0.7);
+    color: rgba(255, 255, 255, 0.871);
+
+
+}
+
+.hero button {
+    padding: 4px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    font-weight: 400;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.bt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50vw;
+    margin: auto;
+    color: white;
+
+}
+
+.image {
+    position: relative;
+}
+
+.image img {
+    width: 32vw;
+    position: relative;
+    z-index: 10;
+    right: 38%;
+}
+
+.image video {
+    position: absolute;
+    top: 21%;
+    width: 26vw;
+    height: 53%;
+    right: 37%;
+
+}
+
+section.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90vw;
+    color: white;
+}
+
+section.first>div {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
+
+section.first>div span {
+    display: inline-block;
+    text-overflow: ellipsis;
+}
+
+section.first>div :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+
+}
+
+section.first>div :nth-child(2) {
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* */
+section.second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+
+section.second>div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.second>div span {
+    display: inline-block;
+    text-overflow: ellipsis;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 10px
+}
+
+section.second>div :nth-child(2) {
+    font-size: 21px;
+    font-family: 'Poppins', sans-sersecond
+}
+
+.sec img {
+    width: 32vw;
+}
+
+.third {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    max-width: 90vw;
+    margin: auto;
+
+}
+
+.seco {
+    position: relative;
+    max-width: 50%;
+}
+
+.seco img {
+    width: 32vw;
+    /* Adjust the image size */
+    position: relative;
+    z-index: 1;
+    right: 30%;
+}
+
+.seco video {
+    position: absolute;
+    top: 18%;
+    /* Adjust positioning */
+    right: 38%;
+    /* Adjust positioning */
+    width: 80%;
+    /* Size of the video */
+    height: 57;
+    /* Maintain aspect ratio */
+}
+
+section.third>div {
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section.third>div span {
+    text-overflow: ellipsis;
+    /* Adds ellipsis for overflow */
+    display: inline-block;
+    padding-left: 20%;
+}
+
+section.third>div :nth-child(1) {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+section.third>div :nth-child(2) {
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+}
